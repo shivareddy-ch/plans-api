@@ -12,6 +12,8 @@ import java.time.LocalDate;
 @Table(name = "PLAN_MASTER")
 public class Plan {
 
+
+    //id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "PLAN_ID")
