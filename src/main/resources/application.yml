@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: 01-PLANS-API
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/health_insurance_system
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#spring.jpa.hibernate.ddl-auto=create (If you're not using h2 database)
+
+plan-api:
+  messages:
+    planSaveSuccess: Plan Saved Successfully
+    planSaveFail: Plan Saving Failed
+
+server:
+  port: 8081

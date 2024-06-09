@@ -1,0 +1,10 @@
+<Configuration>
+    <Appenders>
+        <Console>
+
+        </Console>
+    </Appenders>
+    <Loggers>
+
+    </Loggers>
+</Configuration>
