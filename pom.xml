@@ -8,7 +8,7 @@
 		<version>3.2.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.wipro</groupId>
+	<groupId>com.java</groupId>
 	<artifactId>01-PLANS-API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>01-PLANS-API</name>
