@@ -17,7 +17,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
 		<!-- lookup parent from repository  Updated By Shiva Charan Reddy-->
+
+		<!-- lookup parent from repository  Updated By Shiva Reddy-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
